@@ -1,0 +1,177 @@
+{
+  "chainId": 61999,
+  "address": "0x62a07cbF65c395AF3429F4ad07cf9F7C9E0aC8Ca",
+  "transactions": {
+    "deploy": {
+      "hash": "0x75f80695a484fe5c0f5f4dac180e66cf76aa4618335fee206f596e13426fbdb8",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0xBeA363210452f90980565148CcdFF3B60330103a",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "idle",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "idle",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "agree",
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "agree"
+      }
+    },
+    "authorizeFirst": {
+      "hash": "0x351562165d638d8d68d9d45a3da2c659414d91e74cec7711e4de0430e580a7c4",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0xBeA363210452f90980565148CcdFF3B60330103a",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "agree",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "agree",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "idle",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "idle"
+      }
+    },
+    "authorizeSecond": {
+      "hash": "0x9c5a8353e0c0697e2e111541d655d1e6aa7fa464cb959cf331b3ba43575de3cd",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0xBeA363210452f90980565148CcdFF3B60330103a",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "idle",
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      }
+    },
+    "authorizeOutside": {
+      "hash": "0xd5ad6be6482cb8562ebb4ec873c06fa7407e2c62c78ce685402490a8547606d5",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0xBeA363210452f90980565148CcdFF3B60330103a",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "idle",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "agree",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "agree"
+      }
+    },
+    "reserveFirst": {
+      "hash": "0x237eeb469711bc412cd7ce1ff9218ead9ef893cec8f95916b0ce8cc2b6380cfc",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x227675350aF71e0b32c8D3ee5e34D76faA402b4e",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "idle",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "idle",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      }
+    },
+    "rejectFull": {
+      "hash": "0x17b6bd0aa5c8e8bd410e4926d08077977f4ebce11b06f84bc6493be5e7612bc6",
+      "state": "FINALIZED",
+      "execution": "ERROR",
+      "from": "0x07E63D51D6c14C9FA9CDa7dfFB2845Afb11A5fC0",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "idle",
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "agree",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "idle",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      },
+      "error": "No slot available for county 11001"
+    },
+    "rejectOutside": {
+      "hash": "0x003f1aa29aac73cbd2ca5229c4857e63c916e16c48952044ff9f414514b07cea",
+      "state": "FINALIZED",
+      "execution": "ERROR",
+      "from": "0x2cE0F5C4f70Dd1BD8398FaBC477f716CC7B3CbFF",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "agree",
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "idle",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "idle"
+      },
+      "error": "No slot available for county 51013"
+    },
+    "rejectDuplicate": {
+      "hash": "0x15d0fe6ddf0cd5bfce941abce9040388dc9ea850373cfe20eae2ea458bcfe9d1",
+      "state": "FINALIZED",
+      "execution": "ERROR",
+      "from": "0x227675350aF71e0b32c8D3ee5e34D76faA402b4e",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "idle",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree"
+      },
+      "error": "A live authorization is required"
+    },
+    "releaseFirst": {
+      "hash": "0x7f0972d2c48d8ca36545e9aceecf24a7e92076a6d513374a5cb98576c23681c3",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x227675350aF71e0b32c8D3ee5e34D76faA402b4e",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "idle",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "agree",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "idle"
+      }
+    },
+    "reserveSecond": {
+      "hash": "0x2322863e21153c49cbe105431a9d8178cef0266e9c37df1ed8087912a261f249",
+      "state": "FINALIZED",
+      "execution": "SUCCESS",
+      "from": "0x07E63D51D6c14C9FA9CDa7dfFB2845Afb11A5fC0",
+      "consensus": "MAJORITY_AGREE",
+      "votes": {
+        "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "idle",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "idle"
+      }
+    }
+  },
+  "snapshots": {
+    "afterRejectedReservations": {
+      "limit": 1,
+      "used": 1
+    },
+    "dc": {
+      "limit": 1,
+      "used": 1
+    },
+    "first": {
+      "state": "RELEASED",
+      "latitude_e4": 388977,
+      "longitude_e4": -770365,
+      "county": "11001"
+    },
+    "second": {
+      "state": "RESERVED",
+      "latitude_e4": 388900,
+      "longitude_e4": -770260,
+      "county": "11001"
+    },
+    "outside": {
+      "state": "AUTHORIZED",
+      "latitude_e4": 388800,
+      "longitude_e4": -771000,
+      "county": ""
+    }
+  }
+}
